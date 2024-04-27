@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // return 内は、viewになる部分
+  // JSX(JS/TS内にHTMLを記述できる) 構文 
   return (
     <div className="App">
       <header className="App-header">
