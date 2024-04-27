@@ -45,7 +45,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Tips
+# :memo: 以降メモ
 
 ## JSX記法詳細
-https://www.typescriptlang.org/docs/handbook/jsx.html
+https://ja.react.dev/learn/writing-markup-with-jsx
+https://ja.react.dev/learn/javascript-in-jsx-with-curly-braces

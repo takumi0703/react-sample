@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello';
 
 // Reactコードをブラウザに表示するためのコード
 const root = ReactDOM.createRoot(
@@ -10,7 +11,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Hello />
   </React.StrictMode>
 );
 

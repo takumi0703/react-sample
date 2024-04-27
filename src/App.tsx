@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  // return 内は、viewになる部分
-  // JSX(JS/TS内にHTMLを記述できる) 構文 
+  // return 内は、JSX(JS/TS内にHTMLを記述できる) と呼ばれる構文で、viewになる部分
+  // Reactはそのまま表示できないので、JSに変換される
   return (
     <div className="App">
       <header className="App-header">
