@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './components/Hello';
+import Message from './components/Message';
+import Parent from './components/ContainerSample';
 
 // Reactコードをブラウザに表示するためのコード
 const root = ReactDOM.createRoot(
@@ -12,7 +14,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Hello />
+    {/* <Hello /> */}
+    {/* <Message /> */}
+    <Parent />
   </React.StrictMode>
 );
 
