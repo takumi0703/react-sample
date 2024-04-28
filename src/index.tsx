@@ -7,6 +7,7 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
+import Counter from './components/Counter';
 
 // Reactコードをブラウザに表示するためのコード
 const root = ReactDOM.createRoot(
@@ -18,7 +19,8 @@ root.render(
     {/* <Hello /> */}
     {/* <Message /> */}
     {/* <Parent /> */}
-    <Page />
+    {/* <Page /> */}
+    <Counter />
   </React.StrictMode>
 );
 
