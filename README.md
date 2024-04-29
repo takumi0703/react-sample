@@ -50,3 +50,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## JSX記法詳細
 https://ja.react.dev/learn/writing-markup-with-jsx
 https://ja.react.dev/learn/javascript-in-jsx-with-curly-braces
+
+## React Hook(フック)とは
+関数内で状態やライフサイクル？を管理するための仕組み。
+
+### メモ化
+処理を高速化するための仕組みで、値/関数などの状態をメモリに保存しておき、値/状態に更新が発生した時のみ処理を行うようになり、必要な場合のみ処理を行うことができるようになる。
+
+
