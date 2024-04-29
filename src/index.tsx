@@ -10,6 +10,7 @@ import Page from './components/ContextSample';
 // import Counter from './components/Counter';
 import MemoParent from './components/MemoParent';
 import CallbackSample from './components/useCallbackSample';
+import UseEffectSample from './components/UseEffectSample';
 
 // Reactコードをブラウザに表示するためのコード
 const root = ReactDOM.createRoot(
@@ -24,7 +25,8 @@ root.render(
     {/* <Page /> */}
     {/* <Counter /> */}
     {/* <MemoParent /> */}
-    <CallbackSample />
+    {/* <CallbackSample /> */}
+    <UseEffectSample />
   </React.StrictMode>
 );
 
